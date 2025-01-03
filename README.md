@@ -22,7 +22,7 @@ Use the package manager npm to install Communication Tracker.
 ## 1. Clone the Repository
 
 ```bash
-git clone [[https://github.com/StellarShivam/ENTNT-communicationTracking.git
+git clone [https://github.com/srimukhi77/communication_tracker.git
 cd code
 ```
 
