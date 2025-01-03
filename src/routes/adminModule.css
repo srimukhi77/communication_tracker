@@ -1,0 +1,210 @@
+.admin-module {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1rem;
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+.admin-module h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-align: center;
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1.5rem;
+  margin-top: 0rem;
+}
+
+.admin-module section {
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #e5e7eb;
+}
+
+.admin-module h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #4f46e5;
+  margin-bottom: 1rem;
+}
+
+.admin-module form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.admin-module input,
+.admin-module textarea {
+  padding: 0.5rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+}
+
+.admin-module input:focus,
+.admin-module textarea:focus {
+  outline: none;
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.1);
+}
+
+.admin-module button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.admin-module button[type="submit"] {
+  background: #4f46e5;
+  color: white;
+  border: none;
+}
+
+.admin-module button[type="submit"]:hover {
+  background: #4338ca;
+}
+
+.admin-module button[type="button"] {
+  background: white;
+  border: 1px solid #e5e7eb;
+  color: #4f46e5;
+}
+
+.admin-module button[type="button"]:hover {
+  background: #f5f3ff;
+}
+
+.company-list,
+.communication-methods-list {
+  margin-top: 1rem;
+}
+
+.company-item,
+.method-item {
+  background: white;
+  padding: 0.75rem;
+  border-radius: 0.375rem;
+  border: 1px solid #e5e7eb;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.875rem;
+}
+
+.company-actions,
+.method-actions {
+  display: flex;
+  gap: 0.375rem;
+}
+
+.email-management,
+.phone-management {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+}
+
+.email-management h4,
+.phone-management h4 {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #4f46e5;
+  margin-bottom: 0.25rem;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .admin-module {
+    padding: 0.5rem;
+  }
+
+  .grid-layout {
+    grid-template-columns: 1fr;
+  }
+}
+/* adminModule.css */
+
+/* General styles for form containers */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Reduced spacing between elements */
+}
+
+/* Styles for headings above inputs */
+form h4 {
+  margin-bottom: 4px; /* Tight spacing between heading and input box */
+  font-size: 14px; /* Adjust font size if necessary */
+  color: #333; /* Set a clear text color */
+}
+
+/* Input fields styling */
+form input,
+form textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Buttons styling */
+button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Email and phone management spacing */
+.email-management,
+.phone-management {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Tightened spacing */
+}
+
+.email-item,
+.phone-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.company-actions,
+.method-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+.black {
+  color: black !important;
+}
+/* Styles for the error message */
+.error-message {
+  color: #ff0000; /* Red color for the error message */
+  font-size: 14px; /* Smaller font size */
+  margin-top: 5px; /* Space above the message */
+  font-weight: bold; /* Bold text for emphasis */
+  padding-left: 5px; /* Slight padding to align with the input fields */
+}
