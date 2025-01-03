@@ -3,7 +3,7 @@
 Communication Tracker is a React-based web application designed to help businesses manage and track communications with various companies. The application provides features for logging communications, scheduling follow-ups, maintaining a comprehensive company database and also provide notification for over due communication.
 
 ## Github Link
-https://github.com/StellarShivam/ENTNT-communicationTracking
+(https://github.com/srimukhi77/communication_tracker)
 
 ## Deployment Link
 https://clever-gecko-9eabbb.netlify.app/
@@ -22,8 +22,8 @@ Use the package manager npm to install Communication Tracker.
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/StellarShivam/ENTNT-communicationTracking.git
-cd ENTNT-communicationTracking
+git clone [[https://github.com/StellarShivam/ENTNT-communicationTracking.git
+cd code
 ```
 
 ## 2. Install Dependencies
@@ -106,11 +106,9 @@ Then Upload build file to Netlify
 * Develop reporting and analytics features
 
 
-## License
-This project has been build by Shivam Anand from IIIT Sonepat.
+
 
 ## Contact
-SHIVAM ANAND - shivam.anand.216@gmail.com
-
+SRIMUKHI_THOTA- thotasrimukhi@gmail.com
 Deployed Project Link: https://clever-gecko-9eabbb.netlify.app/
 
